@@ -133,7 +133,7 @@ Follow these steps to set up and run the YouTube Clone application on your local
 
 3. **Open in Browser**
 
-   - Visit `http://localhost:5173` in your browser to access the application.
+   - Visit `https://youtube-9vky.onrender.com` in your browser to access the application.
 
 ---
 

@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api/v1/': {
-        target: 'http://localhost:8000', // Update this to your backend server's URL
+        target: 'https://youtube-9vky.onrender.com', // Update this to your backend server's URL
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/v1/, '/api/v1') // Corrected rewrite function
       }

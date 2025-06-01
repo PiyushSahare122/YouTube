@@ -44,7 +44,7 @@ function Recommendation({ currentVideoTags, currentVideoId }) {
           <img
             src={video.thumbnail}
             alt={video.title}
-            className="w-32 h-20 rounded-md object-cover" // Styling for the thumbnail
+            className="w-36 h-20 rounded-md object-cover" // Styling for the thumbnail
           />
           <div>
             {/* Display the video title with truncation for long titles */}

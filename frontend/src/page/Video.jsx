@@ -127,7 +127,7 @@ function Video() {
 
   return (
     <div className="bg-white min-h-screen flex flex-wrap">
-      <div className="container max-w-[900px] px-4 py-6 mt-3 ml-3">
+      <div className="container max-w-[900px] px-4 py-6 mt-3 ml-7">
         <div className="flex flex-col xl:flex-row gap-6">
           <div className="flex-1">
             {/* Video Player */}

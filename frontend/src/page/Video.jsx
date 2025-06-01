@@ -182,7 +182,7 @@ function Video() {
         <Comments videoId={id} />
       </div>
 
-      <div className="w-full xl:w-96 mt-8">
+      <div className="w-full xl:w-[500px] ml-3 mt-3">
         <Recommendation
           currentVideoTags={videoData?.tags}
           currentVideoId={videoData?._id}

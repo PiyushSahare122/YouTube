@@ -9,6 +9,9 @@ import {
 import { 
   MdSubscriptions, MdExplore, MdTrendingUp, MdHistory 
 } from "react-icons/md"; 
+import { SiYoutubegaming } from "react-icons/si";
+import { IoMusicalNotesOutline } from "react-icons/io5";
+import { PiFilmSlate } from "react-icons/pi";
 
 function Sidebar({ hidden }) {
   // Fetch authentication status and user data from Redux store
@@ -20,6 +23,9 @@ function Sidebar({ hidden }) {
   const navItems = [
     // Default navigation items visible to everyone
     { name: "Home", path: "/", icon: <FiHome className="h-5 w-5 ml-2 mr-3" />, active: true },
+    { name: "Music", path: "/", icon: <IoMusicalNotesOutline className="h-5 w-5 ml-2 mr-3" />, active: true },
+    { name: "Movies", path: "/", icon: <PiFilmSlate className="h-5 w-5 ml-2 mr-3" />, active: true },
+    { name: "Gaming", path: "/", icon: <SiYoutubegaming className="h-5 w-5 ml-2 mr-3" />, active: true },
     { name: "Shorts", path: "/shorts", icon: <FiPlay className="h-5 w-5 ml-2 mr-3"/>, active: authStatus }, 
     { name: "Sign Up", path: "/signup", icon: <FiUser className="h-5 w-5 ml-2 mr-3"/>, active: !authStatus }, 
     { name: "Login", path: "/login", icon: <FiLogIn className="h-5 w-5 ml-2 mr-3"/>, active: !authStatus }, 
